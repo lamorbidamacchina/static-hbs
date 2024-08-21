@@ -1,6 +1,6 @@
 # Static HBS
 
-A simple node app to work with handlebars templates and build a simple static website.
+A node app to work with handlebars templates and build a simple static website.
 
 ## Usage
 Run with 
