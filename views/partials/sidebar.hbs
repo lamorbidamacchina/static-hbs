@@ -1,0 +1,11 @@
+<div class="sidebar" id="sidebar">
+  <ul>
+    <li class="{{#if (eq menuItem 'home')}}selected{{/if}}"><a href="/">Home</a></li>
+    <li class="{{#if (eq menuItem 'login')}}selected{{/if}}"><a href="/login">Login</a></li>
+    <li class="{{#if (eq menuItem 'about')}}selected{{/if}}"><a href="/about">About</a></li>
+    <li class="inactive"><a href="#">Pages</a></li>
+    <li class="internal {{#if (eq menuItem 'page-1')}}selected{{/if}}"><a href="/page-1">Page 1</a></li>
+    <li class="internal {{#if (eq menuItem 'page-2')}}selected{{/if}}"><a href="/page-2">Page 2</a></li>
+    <li class="internal {{#if (eq menuItem 'page-3')}}selected{{/if}}"><a href="/page-3">Page 3</a></li>
+  </ul>
+</div>

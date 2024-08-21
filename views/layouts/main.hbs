@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    {{> head }}
+  </head>
+  <body class="{{menuItem}}">
+    <div class="wrapper">
+      {{> sidebar }}
+      {{> spacer }}
+      <div class="main">
+        {{> header }}
+        <main>
+          <div class="container">
+            {{{body}}}  
+          </div>
+        </main>
+        {{> footer }}
+      </div>
+    </div>
+  </body>
+</html>

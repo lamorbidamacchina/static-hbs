@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    {{> head }}
+  </head>
+  <body>
+    <div class="wrapper">
+      {{> sidebar-no-nav }}
+      {{> spacer }}
+      <div class="main">
+        {{> header-no-nav }}
+        <main>
+          <div class="container">
+            {{{body}}}  
+          </div>
+        </main>
+        {{> footer }}
+      </div>
+    </div>
+  </body>
+</html>

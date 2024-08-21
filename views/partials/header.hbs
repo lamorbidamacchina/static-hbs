@@ -1,0 +1,31 @@
+<header>
+  <div class="container p-0">
+  <nav class="navbar navbar-light bg-light">
+
+    <button id="buttonMenuMobile" class="pushBtn" type="button">
+      <div class="lineMenuWrap">
+        <span class="lineMenu"></span> <span class="lineMenu"></span> <span class="lineMenu"></span>
+      </div>
+    </button>
+			
+
+    <a class="navbar-brand" href="/">Whitelabel Website</a>
+    <ul class="nav nav-large justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link {{#if (eq menuItem 'login')}}active{{/if}}" href="/login">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link {{#if (eq menuItem 'about')}}active{{/if}}" href="/about">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item {{#if (eq menuItem 'page-1')}}active{{/if}}" href="/page-1">Page 1</a>
+          <a class="dropdown-item {{#if (eq menuItem 'page-2')}}active{{/if}}" href="/page-2">Page 2</a>
+          <a class="dropdown-item {{#if (eq menuItem 'page-3')}}active{{/if}}" href="/page-3">Page 3</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  </div>
+</header>
